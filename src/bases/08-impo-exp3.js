@@ -1,5 +1,5 @@
 
-import { getHeroesByOwner, getHeroById } from './bases/08-impo-exp2'
+import { getHeroesByOwner, getHeroById } from './08-impo-exp2'
 
 
 
