@@ -5,7 +5,7 @@ const person = {
 }
 
 // las constantes se extraen de person
-const { age, codeName, name, propiedad = 'se puede crear una pro. así' } = person;
+const { age, codeName, name, propiedad = 'se puede crear una propiedad así' } = person;
 console.log(age);
 console.log(codeName);
 console.log(name);

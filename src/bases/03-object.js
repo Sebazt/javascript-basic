@@ -11,7 +11,9 @@ const person = {
   }
 }
 console.log(person);
-const person2 = {...person}  // el ... rompe la reerencia y me permite mantener las propiedades de forma correcta.
+
+
+const person2 = {...person}  // el ... rompe la reerencia y me permite mantener las propiedades de forma correcta. cambiar una sin afectar la otra
 person2.name = "Sasuke"
 person.name = "Sebas"
 console.log(person);

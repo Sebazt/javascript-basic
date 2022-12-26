@@ -1,7 +1,7 @@
 const myName = 'Sebast'
 const lastName = 'Londoño'
 
-const nameComplete = `El nombre de la persona es ${myName} y se apellida ${lastName}`
+const nameComplete = `Her name is ${myName} and her lastname ${lastName}`
 console.log(nameComplete);
 
 

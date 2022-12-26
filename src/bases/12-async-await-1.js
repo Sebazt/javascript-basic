@@ -1,4 +1,5 @@
-// una función asyncrona retorna una promesa como tal
+// una función asyncrona retorna una promesa como tal y el await solo puede ser usado
+//en una función asincrona.
 
 const miPromesa = () => {
   return new Promise((res, rej) => {
@@ -20,9 +21,10 @@ const medirTiempoAsync = async () => {
     console.log('----- Fin ------');
 
     return ' Fn de esta función de tiempoAsync'
-    
+
   } catch (error) {
-    throw 'Error en medir tiempoAsync' //throw es para lanzar el error x el catch
+    return 'Error en medir tiempoAsync'
+    throw 'Error en medir tiempoAsync' //throw es para obligar el error x el catch
   }
 }
 

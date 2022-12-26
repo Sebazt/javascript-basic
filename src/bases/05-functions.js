@@ -7,7 +7,7 @@ function greeting(name) {
 
 // segunda forma
 const bye = function () {
-  return 'Adios'
+  return 'Good bye'
 }
 
 // función flecha

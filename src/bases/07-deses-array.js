@@ -1,10 +1,10 @@
 
-const persons = ['Kirito', 'Goku', 'Light', 'Eren']
+const persons = ['Kirito', 'Goku', 'Light', 'Eren', 'Lucy']
 const person = persons[0]
 
 
 // desestructurar un array
-const [, b, c, eren, d = 'no tiene valor'] = persons;  // no es necesario que esten todos los elementos
+const [, b, c, eren, d = 'no tiene valor'] = persons;  // no es necesario que esten todos los elementos por eso se utiliza la , la cual indica que l indice anterior no lo quiero
 console.log(b);
 console.log(c);
 console.log(eren);
